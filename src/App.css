@@ -1,0 +1,107 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f4ff;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.kartica {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.naslov {
+  font-size: 1.4rem;
+  color: #2d3a8c;
+}
+
+.podnaslov {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: -0.8rem;
+}
+
+.red {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.polje {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.polje label {
+  font-size: 13px;
+  color: #2d3a8c;
+  font-weight: 500;
+}
+
+.polje input {
+  padding: 9px 12px;
+  border: 1px solid #c5cff5;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.dugmad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.dugmad button {
+  padding: 11px;
+  border: none;
+  border-radius: 10px;
+  background: #2d3a8c;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.dugmad button:hover {
+  background: #1e2a6e;
+}
+
+.rezultat {
+  background: #f0f4ff;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2d3a8c;
+}
+
+.reset {
+  padding: 9px;
+  border: 1px solid #c5cff5;
+  border-radius: 10px;
+  background: white;
+  color: #2d3a8c;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+input {
+  width: 100%;
+}
