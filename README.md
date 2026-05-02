@@ -3,7 +3,7 @@
 Jednostavna web aplikacija za osnovne aritmeticke operacije: sabiranje, oduzimanje, mnozenje i dijeljenje.
 
 ## Live verzija
-[https://vite-react-calculator.vercel.app](https://vite-react-calculator.vercel.app)
+vite-react-calculator-one.vercel.app
 
 ## Tehnologije
 - React
